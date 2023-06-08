@@ -8,7 +8,7 @@ int main()
 		a;
 	cout << "Enter number: ";
 	cin >> a;
-	for (a; a != 500; a++) {
+	for (a; a <= 500; a++) {
 		sum += a;
 	}
 	cout << sum << endl;
@@ -22,7 +22,7 @@ int main()
 	cout << pow(x, y);
 
 	int sumOfAverage = 0;		//Task3
-	for (int i = 0; i != 1000; i++) {
+	for (int i = 0; i <= 1000; i++) {
 		sumOfAverage += i;
 	}
 	cout << "Average of 1 to 1000 = " << sumOfAverage / 1000 << endl;
@@ -31,7 +31,7 @@ int main()
 		b;
 	cout << "Enter number: ";
 	cin >> b;
-	for (b; b != 20; b++) {
+	for (b; b <= 20; b++) {
 		product *= b;
 	}
 	cout << "Product = " << product << endl;
